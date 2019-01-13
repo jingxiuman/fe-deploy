@@ -29,7 +29,7 @@
 "scripts": {
     "test": "npm run test",
     "deploy": "ssh [username]@[ip] 'cd /home/wwwroot/xx.com/ && sh deploy.sh'",
-    "deploy:master": "ssh [username]@[ip] 'cd /home/wwwroot/trial_fe/ && sh deploy.sh master'"
+    "deploy:master": "ssh [username]@[ip] 'cd /home/wwwroot/xx.com/ && sh deploy.sh master'"
   },
 ```
 
