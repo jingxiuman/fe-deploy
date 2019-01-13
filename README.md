@@ -7,12 +7,12 @@
 ## 使用方式
 自己使用的是nginx，这里假设你会了 nginx。
 
-1、假设你部署的路径/home/wwwroot/xx.com/dist
+### 1、假设你部署的路径/home/wwwroot/xx.com/dist
 
 如下是常见的 nginx 的前端配置
 
 ```
-	server {
+server {
         listen       80;
         server_name active.xxx.cn;
 
@@ -20,10 +20,10 @@
 		index index.html
     }
 ```
-2、 在/home/wwwroot/xx.com下放置本仓库下的 deloy.sh
-3、修改 deploy.sh 里面 codeUrl 为你的仓库地址
-4、你git仓库的部署公钥，需要加入你服务器的公钥。
-5、在你的代码的 package.json加入以下
+### 2、 在/home/wwwroot/xx.com下放置本仓库下的 deloy.sh
+### 3、修改 deploy.sh 里面 codeUrl 为你的仓库地址
+### 4、你git仓库的部署公钥，需要加入你服务器的公钥。
+### 5、在你的代码的 package.json加入以下
 
 ```
 "scripts": {
